@@ -1,0 +1,2122 @@
+Microchip MPLAB XC8 Compiler V2.20
+
+Linker command line:
+
+-W-3 --edf=C:\Program Files\Microchip\xc8\v2.20\pic\dat\en_msgs.txt -cn \
+  -h+dist/default/production\PT_Series_Firmware.X.production.sym \
+  --cmf=dist/default/production\PT_Series_Firmware.X.production.cmf -z \
+  -Q18LF46K40 -oC:\Users\Indus\AppData\Local\Temp\s86c.2 \
+  --defsym=__MPLAB_BUILD=1 \
+  -Mdist/default/production/PT_Series_Firmware.X.production.map -E1 \
+  -ver=XC8 Compiler --acfsm=1493 -ASTACK=0500h-0E87h -pstack=STACK \
+  -p_reservedFlashDataMemory_const=4040h -p_constReserveMemory_const=4000h \
+  -p_codeRevisionNumber_const=FFFEh -ACODE=04000h-0FFFFh \
+  -ACONST=04000h-0FFFFh -ASMALLCONST=04000h-040FFhx192 \
+  -AMEDIUMCONST=04000h-0FFFFh -ACOMRAM=01h-05Fh -AABS1=00h-0E87h \
+  -ABIGRAM=01h-0E87h -ARAM=060h-0FFh,0100h-01FFhx13,0E00h-0E87h \
+  -ABANK0=060h-0FFh -ABANK1=0100h-01FFh -ABANK2=0200h-02FFh \
+  -ABANK3=0300h-03FFh -ABANK4=0400h-04FFh -ABANK5=0500h-05FFh \
+  -ABANK6=0600h-06FFh -ABANK7=0700h-07FFh -ABANK8=0800h-08FFh \
+  -ABANK9=0900h-09FFh -ABANK10=0A00h-0AFFh -ABANK11=0B00h-0BFFh \
+  -ABANK12=0C00h-0CFFh -ABANK13=0D00h-0DFFh -ABANK14=0E00h-0E87h \
+  -ASFR=0E8Dh-0EFFh,0F00h-0F5Fh,0F60h-0FFFh -ACONFIG=0300000h-030000Bh \
+  -AIDLOC=0200000h-020000Fh \
+  -preset_vec=00h,intcode=08h,intcodelo,powerup,init -pramtop=0F00h \
+  -psmallconst=SMALLCONST -pmediumconst=MEDIUMCONST -pconst=CONST \
+  -AFARRAM=00h-00h -AEEDATA=0310000h-03103FFh -peeprom_data=EEDATA \
+  -prdata=COMRAM,nvrram=COMRAM,nvbit=COMRAM,rbss=COMRAM,rbit=COMRAM \
+  -pfarbss=FARRAM,fardata=FARRAM,nvFARRAM=FARRAM \
+  -pintsave_regs=BIGRAM,bigbss=BIGRAM,bigdata=BIGRAM -pbss=RAM \
+  -pidata=CODE,irdata=CODE,ibigdata=CODE,ifardata=CODE -prparam=COMRAM \
+  C:\Users\Indus\AppData\Local\Temp\s86c.o \
+  dist/default/production\PT_Series_Firmware.X.production.o 
+
+Object code version is 3.11
+
+Machine type is 18LF46K40
+
+
+
+                Name                               Link     Load   Length Selector   Space Scale
+C:\Users\Indus\AppData\Local\Temp\s86c.o
+                idloc                            200000   200000       10        0       5
+                config                           300000   300000        C        0       4
+                init                                 22       22        4        4       0
+                reset_vec                             0        0        4        0       0
+dist/default/production\PT_Series_Firmware.X.production.o
+                intcode                               8        8       1A        4       0
+                idloc                            200000   200000       10        0       5
+                config                           300000   300000        C        0       4
+                temp                                 5C       5C        1       41       1
+                mediumconst                        4FFE     4FFE       16     27FF       0
+                text37                             5B02     5B02      154     280A       0
+                text35                             6330     6330       18     3180       0
+                text34                             6140     6140       36     280A       0
+                text33                             5EEC     5EEC       5A     280A       0
+                text32                             6222     6222       26     280A       0
+                text31                             62B0     62B0       1C     280A       0
+                text30                             628E     628E       22     280A       0
+                text29                             5F46     5F46       56     280A       0
+                text28                             5E32     5E32       5E     280A       0
+                text27                             636E     636E       10     3180       0
+                text26                             6176     6176       2E     280A       0
+                text25                             56A6     56A6      300     280A       0
+                text24                             603A     603A       48     280A       0
+                text23                             6082     6082       46     280A       0
+                text22                             5DD0     5DD0       62     280A       0
+                text21                             536A     536A      33C     280A       0
+                text20                             59A6     59A6      15C     280A       0
+                text19                             5D6C     5D6C       64     280A       0
+                text18                             5D06     5D06       66     280A       0
+                text17                             61A4     61A4       2C     280A       0
+                text16                             6318     6318       18     3180       0
+                text15                             62CC     62CC       1A     280A       0
+                text14                             6300     6300       18     3180       0
+                text13                             637E     637E        E     3180       0
+                text12                             635C     635C       12     3180       0
+                text11                             6248     6248       24     280A       0
+                text10                             6390     6390        4     3180       0
+                text9                              638C     638C        4     3180       0
+                text8                              5F9C     5F9C       50     280A       0
+                text7                              61FA     61FA       28     280A       0
+                text6                              5E90     5E90       5C     280A       0
+                text5                              5FEC     5FEC       4E     280A       0
+                text4                              60C8     60C8       3E     280A       0
+                text3                              6106     6106       3A     280A       0
+                text2                              626C     626C       22     280A       0
+                text1                              61D0     61D0       2A     280A       0
+                text0                              5014     5014      356     280A       0
+                cstackCOMRAM                         41       41       14       41       1
+                cstackBANK0                          E5       E5        C       60       1
+                bssBANK4                            400      400      100      400       1
+                bssBANK3                            300      300      100      300       1
+                bssBANK2                            200      200      100      200       1
+                dataBANK1                           100      100       14      100       1
+                dataBANK0                            CC       CC       19       60       1
+                bssBANK0                             60       60       6C       60       1
+                dataCOMRAM                           5B       5B        1       41       1
+                bssCOMRAM                            55       55        6       41       1
+                cinit                              5C56     5C56       B0     280A       0
+                _codeRevisionNumber_const          FFFE     FFFE        2     7FFF       0
+                _constReserveMemory_const          4000     4000       40     2000       0
+                _reservedFlashDataMemory_const     4040     4040      FBE     2020       0
+                idataBANK1                         6348     6348       14     3180       0
+                idataBANK0                         62E6     62E6       19     280A       0
+                idataCOMRAM                        6394     6394        1     3180       0
+
+TOTAL           Name                               Link     Load   Length     Space
+        CLASS   STACK          
+
+        CLASS   CODE           
+                intcode                               8        8       1A         0
+                init                                 22       22        4         0
+                reset_vec                             0        0        4         0
+                text37                             5B02     5B02      154         0
+                text35                             6330     6330       18         0
+                text34                             6140     6140       36         0
+                text33                             5EEC     5EEC       5A         0
+                text32                             6222     6222       26         0
+                text31                             62B0     62B0       1C         0
+                text30                             628E     628E       22         0
+                text29                             5F46     5F46       56         0
+                text28                             5E32     5E32       5E         0
+                text27                             636E     636E       10         0
+                text26                             6176     6176       2E         0
+                text25                             56A6     56A6      300         0
+                text24                             603A     603A       48         0
+                text23                             6082     6082       46         0
+                text22                             5DD0     5DD0       62         0
+                text21                             536A     536A      33C         0
+                text20                             59A6     59A6      15C         0
+                text19                             5D6C     5D6C       64         0
+                text18                             5D06     5D06       66         0
+                text17                             61A4     61A4       2C         0
+                text16                             6318     6318       18         0
+                text15                             62CC     62CC       1A         0
+                text14                             6300     6300       18         0
+                text13                             637E     637E        E         0
+                text12                             635C     635C       12         0
+                text11                             6248     6248       24         0
+                text10                             6390     6390        4         0
+                text9                              638C     638C        4         0
+                text8                              5F9C     5F9C       50         0
+                text7                              61FA     61FA       28         0
+                text6                              5E90     5E90       5C         0
+                text5                              5FEC     5FEC       4E         0
+                text4                              60C8     60C8       3E         0
+                text3                              6106     6106       3A         0
+                text2                              626C     626C       22         0
+                text1                              61D0     61D0       2A         0
+                text0                              5014     5014      356         0
+                cinit                              5C56     5C56       B0         0
+                _codeRevisionNumber_const          FFFE     FFFE        2         0
+                _constReserveMemory_const          4000     4000       40         0
+                _reservedFlashDataMemory_const     4040     4040      FBE         0
+                idataBANK1                         6348     6348       14         0
+                idataBANK0                         62E6     62E6       19         0
+                idataCOMRAM                        6394     6394        1         0
+
+        CLASS   CONST          
+
+        CLASS   SMALLCONST     
+
+        CLASS   MEDIUMCONST    
+                mediumconst                        4FFE     4FFE       16         0
+
+        CLASS   COMRAM         
+                temp                                 5C       5C        1         1
+                cstackCOMRAM                         41       41       14         1
+                dataCOMRAM                           5B       5B        1         1
+                bssCOMRAM                            55       55        6         1
+
+        CLASS   ABS1           
+                abs_s1                                1        1       40         1
+
+        CLASS   BIGRAM         
+
+        CLASS   RAM            
+
+        CLASS   BANK0          
+                cstackBANK0                          E5       E5        C         1
+                dataBANK0                            CC       CC       19         1
+                bssBANK0                             60       60       6C         1
+
+        CLASS   BANK1          
+                dataBANK1                           100      100       14         1
+
+        CLASS   BANK2          
+                bssBANK2                            200      200      100         1
+
+        CLASS   BANK3          
+                bssBANK3                            300      300      100         1
+
+        CLASS   BANK4          
+                bssBANK4                            400      400      100         1
+
+        CLASS   BANK5          
+
+        CLASS   BANK6          
+
+        CLASS   BANK7          
+
+        CLASS   BANK8          
+
+        CLASS   BANK9          
+
+        CLASS   BANK10         
+
+        CLASS   BANK11         
+
+        CLASS   BANK12         
+
+        CLASS   BANK13         
+
+        CLASS   BANK14         
+
+        CLASS   SFR            
+
+        CLASS   CONFIG         
+                config                           300000   300000        C         4
+
+        CLASS   IDLOC          
+                idloc                            200000   200000       10         5
+
+        CLASS   FARRAM         
+
+        CLASS   EEDATA         
+
+
+
+SEGMENTS        Name                           Load    Length   Top    Selector   Space  Class
+
+                reset_vec                      000000  000004  000004         0       0  CODE    
+                intcode                        000008  00001E  000026         4       0  CODE    
+                cstackCOMRAM                   000041  00001C  00005D        41       1  COMRAM  
+                bssBANK0                       000060  000091  0000F1        60       1  BANK0   
+                dataBANK1                      000100  000014  000114       100       1  BANK1   
+                bssBANK2                       000200  000100  000300       200       1  BANK2   
+                bssBANK3                       000300  000100  000400       300       1  BANK3   
+                bssBANK4                       000400  000100  000500       400       1  BANK4   
+                _constReserveMemory_const      004000  000040  004040      2000       0  CODE    
+                _reservedFlashDataMemory_const 004040  000FBE  004FFE      2020       0  CODE    
+                mediumconst                    004FFE  000016  005014      27FF       0  MEDIUMCO
+                text0                          005014  0012EB  0062FF      280A       0  CODE    
+                text14                         006300  000095  006395      3180       0  CODE    
+                _codeRevisionNumber_const      00FFFE  000002  010000      7FFF       0  CODE    
+
+
+UNUSED ADDRESS RANGES
+
+        Name                Unused          Largest block    Delta
+        BANK0            0000F1-0000FF                F
+        BANK1            000114-0001FF               EC
+        BANK10           000A00-000AFF              100
+        BANK11           000B00-000BFF              100
+        BANK12           000C00-000CFF              100
+        BANK13           000D00-000DFF              100
+        BANK14           000E00-000E87               88
+        BANK5            000500-0005FF              100
+        BANK6            000600-0006FF              100
+        BANK7            000700-0007FF              100
+        BANK8            000800-0008FF              100
+        BANK9            000900-0009FF              100
+        BIGRAM           00005D-00005F                3
+                         0000F1-0000FF                F
+                         000114-0001FF               EC
+                         000500-000E87              988
+        CODE             0062FF-0062FF                1
+                         006395-00FFFD             9C69
+        COMRAM           00005D-00005F                3
+        CONST            0062FF-0062FF                1
+                         006395-00FFFD             9C69
+        EEDATA           310000-3103FF              400
+        MEDIUMCONST      0062FF-0062FF                1
+                         006395-00FFFD             9C69
+        RAM              0000F1-0000FF                F
+                         000114-0001FF               EC
+                         000500-000E87              100
+        SFR              000E8D-000FFF               73
+        SMALLCONST       0062FF-0062FF                1
+                         006395-00FFFD              100
+        STACK            000500-000E87              988
+
+                                  Symbol Table
+
+ReadEEByte@address                      cstackCOMRAM                   000044
+WriteEEByte@address                     cstackCOMRAM                   000044
+WriteEEByte@data                        cstackCOMRAM                   000046
+XBLE_state_manage@countId               bssBANK0                       0000BF
+XBLE_state_manage@dataId                bssBANK0                       0000B2
+XBLE_state_manage@historyLsb            dataBANK0                      0000DC
+XBLE_state_manage@historyMsb            dataBANK0                      0000D4
+XReceiveBTMessage@BTHeader              bssBANK0                       0000A0
+XReceiveBTMessage@BTdata                cstackCOMRAM                   000053
+XReceiveBTMessage@byteCount             bssCOMRAM                      000055
+XReceiveBTMessage@pLength               bssBANK0                       0000B4
+XReceiveBTMessage@receivedMessage       bssBANK0                       0000C1
+Xble_cmd_attributes_write@n             cstackCOMRAM                   000045
+_ADACQ                                  (abs)                          000F5C
+_ADCLK                                  (abs)                          000F57
+_ADCON0bits                             (abs)                          000F60
+_ADPCH                                  (abs)                          000F5F
+_ADREFbits                              (abs)                          000F58
+_ADRES                                  (abs)                          000F63
+_ANSELA                                 (abs)                          000F11
+_ANSELB                                 (abs)                          000F19
+_ANSELC                                 (abs)                          000F21
+_ANSELD                                 (abs)                          000F26
+_BAUDCON1bits                           (abs)                          000F9F
+_DAC1CON0bits                           (abs)                          000F33
+_DAC1CON1                               (abs)                          000F34
+_FVRCONbits                             (abs)                          000F31
+_GIE                                    (abs)                          007F97
+_INTCONbits                             (abs)                          000FF2
+_LATAbits                               (abs)                          000F83
+_LATBbits                               (abs)                          000F84
+_LATCbits                               (abs)                          000F85
+_LATDbits                               (abs)                          000F86
+_LATEbits                               (abs)                          000F87
+_NVMADRH                                (abs)                          000F7F
+_NVMADRL                                (abs)                          000F7E
+_NVMCON1bits                            (abs)                          000F81
+_NVMCON2                                (abs)                          000F82
+_NVMDAT                                 (abs)                          000F80
+_OSCCON1bits                            (abs)                          000ED8
+_OSCCON3bits                            (abs)                          000EDA
+_OSCFRQ                                 (abs)                          000EDE
+_PIE0bits                               (abs)                          000EC2
+_PIE3bits                               (abs)                          000EC5
+_PIR0bits                               (abs)                          000ECA
+_PIR3bits                               (abs)                          000ECD
+_PIR4bits                               (abs)                          000ECE
+_PORTAbits                              (abs)                          000F8D
+_PORTB                                  (abs)                          000F8E
+_PORTC                                  (abs)                          000F8F
+_PORTD                                  (abs)                          000F90
+_RC1REG                                 (abs)                          000F99
+_RC6PPS                                 (abs)                          000EFD
+_RCREG1                                 (abs)                          000F99
+_RCSTA1bits                             (abs)                          000F9D
+_RX1PPS                                 (abs)                          000EB5
+_ReadEEByte                             text7                          0061FA
+_SPBRG1                                 (abs)                          000F9B
+_T0CON0bits                             (abs)                          000FD5
+_T0CON1bits                             (abs)                          000FD6
+_T2CLKCONbits                           (abs)                          000FBF
+_T2CONbits                              (abs)                          000FBD
+_TRISAbits                              (abs)                          000F88
+_TRISBbits                              (abs)                          000F89
+_TRISCbits                              (abs)                          000F8A
+_TRISDbits                              (abs)                          000F8B
+_TRISEbits                              (abs)                          000F8C
+_TXREG1                                 (abs)                          000F9A
+_TXSTA1bits                             (abs)                          000F9E
+_WPUA                                   (abs)                          000F10
+_WPUD                                   (abs)                          000F25
+_WriteEEByte                            text24                         00603A
+_XBLE_state_manage                      text25                         0056A6
+_XReceiveBTMessage                      text20                         0059A6
+_Xble_cmd_attributes_write              text33                         005EEC
+_Xble_cmd_gap_set_mode                  text32                         006222
+__HRAM                                  (abs)                          000000
+__H_codeRevisionNumber_const            _codeRevisionNumber_const      010000
+__H_constReserveMemory_const            _constReserveMemory_const      004040
+__H_reservedFlashDataMemory_const       _reservedFlashDataMemory_const 004FFE
+__Habs1                                 abs1                           000000
+__Hbank0                                bank0                          000000
+__Hbank1                                bank1                          000000
+__Hbank10                               bank10                         000000
+__Hbank11                               bank11                         000000
+__Hbank12                               bank12                         000000
+__Hbank13                               bank13                         000000
+__Hbank14                               bank14                         000000
+__Hbank2                                bank2                          000000
+__Hbank3                                bank3                          000000
+__Hbank4                                bank4                          000000
+__Hbank5                                bank5                          000000
+__Hbank6                                bank6                          000000
+__Hbank7                                bank7                          000000
+__Hbank8                                bank8                          000000
+__Hbank9                                bank9                          000000
+__Hbigbss                               bigbss                         000000
+__Hbigdata                              bigdata                        000000
+__Hbigram                               bigram                         000000
+__Hbss                                  bss                            000000
+__HbssBANK0                             bssBANK0                       000000
+__HbssBANK2                             bssBANK2                       000000
+__HbssBANK3                             bssBANK3                       000000
+__HbssBANK4                             bssBANK4                       000000
+__HbssCOMRAM                            bssCOMRAM                      000000
+__Hcinit                                cinit                          000000
+__Hclrtext                              clrtext                        000000
+__Hcomram                               comram                         000000
+__Hconfig                               config                         30000C
+__Hconst                                const                          000000
+__HcstackBANK0                          cstackBANK0                    000000
+__HcstackCOMRAM                         cstackCOMRAM                   000000
+__Hdata                                 data                           000000
+__HdataBANK0                            dataBANK0                      000000
+__HdataBANK1                            dataBANK1                      000000
+__HdataCOMRAM                           dataCOMRAM                     000000
+__Heeprom_data                          eeprom_data                    000000
+__Hfarbss                               farbss                         000000
+__Hfardata                              fardata                        000000
+__Hibigdata                             ibigdata                       000000
+__Hidata                                idata                          000000
+__HidataBANK0                           idataBANK0                     000000
+__HidataBANK1                           idataBANK1                     000000
+__HidataCOMRAM                          idataCOMRAM                    000000
+__Hidloc                                idloc                          200010
+__Hifardata                             ifardata                       000000
+__Hinit                                 init                           000026
+__Hintcode                              intcode                        000022
+__Hintcode_body                         intcode_body                   000000
+__Hintcodelo                            intcodelo                      000022
+__Hintentry                             intentry                       000000
+__Hintret                               intret                         000000
+__Hintsave_regs                         intsave_regs                   000000
+__Hirdata                               irdata                         000000
+__Hmediumconst                          mediumconst                    005014
+__HnvFARRAM                             nvFARRAM                       000000
+__Hnvbit                                nvbit                          000000
+__Hnvrram                               nvrram                         000000
+__Hparam                                rparam                         000000
+__Hpowerup                              powerup                        000022
+__Hram                                  ram                            000000
+__Hramtop                               ramtop                         000F00
+__Hrbit                                 rbit                           000000
+__Hrbss                                 rbss                           000000
+__Hrdata                                rdata                          000000
+__Hreset_vec                            reset_vec                      000004
+__Hrparam                               rparam                         000000
+__Hsfr                                  sfr                            000000
+__Hsmallconst                           smallconst                     000000
+__Hspace_0                              (abs)                          010000
+__Hspace_1                              (abs)                          000500
+__Hspace_2                              (abs)                          000000
+__Hspace_4                              (abs)                          60000C
+__Hstack                                stack                          000000
+__Hstruct                               struct                         000000
+__Htemp                                 temp                           00005D
+__Htext                                 text                           000000
+__Htext0                                text0                          000000
+__Htext1                                text1                          000000
+__Htext10                               text10                         000000
+__Htext11                               text11                         000000
+__Htext12                               text12                         000000
+__Htext13                               text13                         000000
+__Htext14                               text14                         000000
+__Htext15                               text15                         000000
+__Htext16                               text16                         000000
+__Htext17                               text17                         000000
+__Htext18                               text18                         000000
+__Htext19                               text19                         000000
+__Htext2                                text2                          000000
+__Htext20                               text20                         000000
+__Htext21                               text21                         000000
+__Htext22                               text22                         000000
+__Htext23                               text23                         000000
+__Htext24                               text24                         000000
+__Htext25                               text25                         000000
+__Htext26                               text26                         000000
+__Htext27                               text27                         000000
+__Htext28                               text28                         000000
+__Htext29                               text29                         000000
+__Htext3                                text3                          000000
+__Htext30                               text30                         000000
+__Htext31                               text31                         000000
+__Htext32                               text32                         000000
+__Htext33                               text33                         000000
+__Htext34                               text34                         000000
+__Htext35                               text35                         000000
+__Htext37                               text37                         000000
+__Htext4                                text4                          000000
+__Htext5                                text5                          000000
+__Htext6                                text6                          000000
+__Htext7                                text7                          000000
+__Htext8                                text8                          000000
+__Htext9                                text9                          000000
+__LRAM                                  (abs)                          000001
+__L_codeRevisionNumber_const            _codeRevisionNumber_const      00FFFE
+__L_constReserveMemory_const            _constReserveMemory_const      004000
+__L_reservedFlashDataMemory_const       _reservedFlashDataMemory_const 004040
+__Labs1                                 abs1                           000000
+__Lbank0                                bank0                          000000
+__Lbank1                                bank1                          000000
+__Lbank10                               bank10                         000000
+__Lbank11                               bank11                         000000
+__Lbank12                               bank12                         000000
+__Lbank13                               bank13                         000000
+__Lbank14                               bank14                         000000
+__Lbank2                                bank2                          000000
+__Lbank3                                bank3                          000000
+__Lbank4                                bank4                          000000
+__Lbank5                                bank5                          000000
+__Lbank6                                bank6                          000000
+__Lbank7                                bank7                          000000
+__Lbank8                                bank8                          000000
+__Lbank9                                bank9                          000000
+__Lbigbss                               bigbss                         000000
+__Lbigdata                              bigdata                        000000
+__Lbigram                               bigram                         000000
+__Lbss                                  bss                            000000
+__LbssBANK0                             bssBANK0                       000000
+__LbssBANK2                             bssBANK2                       000000
+__LbssBANK3                             bssBANK3                       000000
+__LbssBANK4                             bssBANK4                       000000
+__LbssCOMRAM                            bssCOMRAM                      000000
+__Lcinit                                cinit                          000000
+__Lclrtext                              clrtext                        000000
+__Lcomram                               comram                         000000
+__Lconfig                               config                         000000
+__Lconst                                const                          000000
+__LcstackBANK0                          cstackBANK0                    000000
+__LcstackCOMRAM                         cstackCOMRAM                   000000
+__Ldata                                 data                           000000
+__LdataBANK0                            dataBANK0                      000000
+__LdataBANK1                            dataBANK1                      000000
+__LdataCOMRAM                           dataCOMRAM                     000000
+__Leeprom_data                          eeprom_data                    000000
+__Lfarbss                               farbss                         000000
+__Lfardata                              fardata                        000000
+__Libigdata                             ibigdata                       000000
+__Lidata                                idata                          000000
+__LidataBANK0                           idataBANK0                     000000
+__LidataBANK1                           idataBANK1                     000000
+__LidataCOMRAM                          idataCOMRAM                    000000
+__Lidloc                                idloc                          000000
+__Lifardata                             ifardata                       000000
+__Linit                                 init                           000022
+__Lintcode                              intcode                        000008
+__Lintcode_body                         intcode_body                   000000
+__Lintcodelo                            intcodelo                      000022
+__Lintentry                             intentry                       000000
+__Lintret                               intret                         000000
+__Lintsave_regs                         intsave_regs                   000000
+__Lirdata                               irdata                         000000
+__Lmediumconst                          mediumconst                    004FFE
+__LnvFARRAM                             nvFARRAM                       000000
+__Lnvbit                                nvbit                          000000
+__Lnvrram                               nvrram                         000000
+__Lparam                                rparam                         000000
+__Lpowerup                              powerup                        000022
+__Lram                                  ram                            000000
+__Lramtop                               ramtop                         000F00
+__Lrbit                                 rbit                           000000
+__Lrbss                                 rbss                           000000
+__Lrdata                                rdata                          000000
+__Lreset_vec                            reset_vec                      000000
+__Lrparam                               rparam                         000000
+__Lsfr                                  sfr                            000000
+__Lsmallconst                           smallconst                     000000
+__Lspace_0                              (abs)                          000000
+__Lspace_1                              (abs)                          000000
+__Lspace_2                              (abs)                          000000
+__Lspace_4                              (abs)                          000000
+__Lstack                                stack                          000000
+__Lstruct                               struct                         000000
+__Ltemp                                 temp                           00005C
+__Ltext                                 text                           000000
+__Ltext0                                text0                          000000
+__Ltext1                                text1                          000000
+__Ltext10                               text10                         000000
+__Ltext11                               text11                         000000
+__Ltext12                               text12                         000000
+__Ltext13                               text13                         000000
+__Ltext14                               text14                         000000
+__Ltext15                               text15                         000000
+__Ltext16                               text16                         000000
+__Ltext17                               text17                         000000
+__Ltext18                               text18                         000000
+__Ltext19                               text19                         000000
+__Ltext2                                text2                          000000
+__Ltext20                               text20                         000000
+__Ltext21                               text21                         000000
+__Ltext22                               text22                         000000
+__Ltext23                               text23                         000000
+__Ltext24                               text24                         000000
+__Ltext25                               text25                         000000
+__Ltext26                               text26                         000000
+__Ltext27                               text27                         000000
+__Ltext28                               text28                         000000
+__Ltext29                               text29                         000000
+__Ltext3                                text3                          000000
+__Ltext30                               text30                         000000
+__Ltext31                               text31                         000000
+__Ltext32                               text32                         000000
+__Ltext33                               text33                         000000
+__Ltext34                               text34                         000000
+__Ltext35                               text35                         000000
+__Ltext37                               text37                         000000
+__Ltext4                                text4                          000000
+__Ltext5                                text5                          000000
+__Ltext6                                text6                          000000
+__Ltext7                                text7                          000000
+__Ltext8                                text8                          000000
+__Ltext9                                text9                          000000
+__S0                                    (abs)                          006395
+__S1                                    (abs)                          000500
+__S2                                    (abs)                          000000
+__S4                                    (abs)                          000000
+__S5                                    (abs)                          000000
+___inthi_sp                             stack                          000000
+___intlo_sp                             stack                          000000
+___param_bank                           (abs)                          000000
+___rparam_used                          (abs)                          000001
+___sp                                   stack                          000000
+__accesstop                             (abs)                          000060
+__activetblptr                          (abs)                          000003
+__end_of_ReadEEByte                     text7                          006222
+__end_of_WriteEEByte                    text24                         006082
+__end_of_XBLE_state_manage              text25                         0059A6
+__end_of_XReceiveBTMessage              text20                         005B02
+__end_of_Xble_cmd_attributes_write      text33                         005F46
+__end_of_Xble_cmd_gap_set_mode          text32                         006248
+__end_of__initialization                cinit                          005CFC
+__end_of_analyseBleRxIn                 text19                         005DD0
+__end_of_bleReset                       text31                         0062CC
+__end_of_calibrationSecurityCheck       mediumconst                    005013
+__end_of_calibrationStow                text22                         005E32
+__end_of_codeRevisionNumber             _codeRevisionNumber_const      010000
+__end_of_constReserveMemory             _constReserveMemory_const      004040
+__end_of_delay                          text30                         0062B0
+__end_of_ifDcPlugInserted               text18                         005D6C
+__end_of_initialiseAdc                  text17                         0061D0
+__end_of_initialiseBitBashSpi           text16                         006330
+__end_of_initialiseBlueToothIo          text15                         0062E6
+__end_of_initialiseDac                  text14                         006318
+__end_of_initialiseIoBitsAndPieces      text13                         00638C
+__end_of_initialiseLeds                 text12                         00636E
+__end_of_initialiseVoltageReference     text11                         00626C
+__end_of_interrupt_normal_code          text37                         005C56
+__end_of_ledColour                      text23                         0060C8
+__end_of_main                           text0                          00536A
+__end_of_mcuCts                         text35                         006348
+__end_of_mcuRtsHigh                     text10                         006394
+__end_of_mcuRtsLow                      text9                          006390
+__end_of_messageMatch                   text21                         0056A6
+__end_of_my_isr                         intcode                        000022
+__end_of_readAllADS1120configRegisters  text8                          005FEC
+__end_of_readDataSensor                 text26                         0061A4
+__end_of_readInCalibrationPoints        text6                          005EEC
+__end_of_readSoftSpiData8               text29                         005F9C
+__end_of_reservedFlashDataMemory        _reservedFlashDataMemory_const 004FFE
+__end_of_setupADS1120                   text5                          00603A
+__end_of_shootSoftSpiData8              text28                         005E90
+__end_of_shootUart1Data                 text34                         006176
+__end_of_switchToHighFreqOsc            text4                          006106
+__end_of_switchToLowFreqOsc             text3                          006140
+__end_of_timer0Setup                    text2                          00628E
+__end_of_uart1Setup                     text1                          0061FA
+__end_of_waitForDrdy                    text27                         00637E
+__initialization                        cinit                          005C56
+__mediumconst                           mediumconst                    004FFE
+__p_codeRevisionNumber_const            _codeRevisionNumber_const      00FFFE
+__p_constReserveMemory_const            _constReserveMemory_const      004000
+__p_reservedFlashDataMemory_const       _reservedFlashDataMemory_const 004040
+__pbssBANK0                             bssBANK0                       000060
+__pbssBANK2                             bssBANK2                       000200
+__pbssBANK3                             bssBANK3                       000300
+__pbssBANK4                             bssBANK4                       000400
+__pbssCOMRAM                            bssCOMRAM                      000055
+__pcinit                                cinit                          005C56
+__pcstackBANK0                          cstackBANK0                    0000E5
+__pcstackCOMRAM                         cstackCOMRAM                   000041
+__pdataBANK0                            dataBANK0                      0000CC
+__pdataBANK1                            dataBANK1                      000100
+__pdataCOMRAM                           dataCOMRAM                     00005B
+__pidataBANK0                           idataBANK0                     0062E6
+__pidataBANK1                           idataBANK1                     006348
+__pidataCOMRAM                          idataCOMRAM                    006394
+__pintcode                              intcode                        000008
+__pmediumconst                          mediumconst                    004FFE
+__ptext0                                text0                          005014
+__ptext1                                text1                          0061D0
+__ptext10                               text10                         006390
+__ptext11                               text11                         006248
+__ptext12                               text12                         00635C
+__ptext13                               text13                         00637E
+__ptext14                               text14                         006300
+__ptext15                               text15                         0062CC
+__ptext16                               text16                         006318
+__ptext17                               text17                         0061A4
+__ptext18                               text18                         005D06
+__ptext19                               text19                         005D6C
+__ptext2                                text2                          00626C
+__ptext20                               text20                         0059A6
+__ptext21                               text21                         00536A
+__ptext22                               text22                         005DD0
+__ptext23                               text23                         006082
+__ptext24                               text24                         00603A
+__ptext25                               text25                         0056A6
+__ptext26                               text26                         006176
+__ptext27                               text27                         00636E
+__ptext28                               text28                         005E32
+__ptext29                               text29                         005F46
+__ptext3                                text3                          006106
+__ptext30                               text30                         00628E
+__ptext31                               text31                         0062B0
+__ptext32                               text32                         006222
+__ptext33                               text33                         005EEC
+__ptext34                               text34                         006140
+__ptext35                               text35                         006330
+__ptext37                               text37                         005B02
+__ptext4                                text4                          0060C8
+__ptext5                                text5                          005FEC
+__ptext6                                text6                          005E90
+__ptext7                                text7                          0061FA
+__ptext8                                text8                          005F9C
+__ptext9                                text9                          00638C
+__ramtop                                ramtop                         000F00
+__size_of_ReadEEByte                    (abs)                          000000
+__size_of_WriteEEByte                   (abs)                          000000
+__size_of_XBLE_state_manage             (abs)                          000000
+__size_of_XReceiveBTMessage             (abs)                          000000
+__size_of_Xble_cmd_attributes_write     (abs)                          000000
+__size_of_Xble_cmd_gap_set_mode         (abs)                          000000
+__size_of_analyseBleRxIn                (abs)                          000000
+__size_of_bleReset                      (abs)                          000000
+__size_of_calibrationStow               (abs)                          000000
+__size_of_delay                         (abs)                          000000
+__size_of_ifDcPlugInserted              (abs)                          000000
+__size_of_initialiseAdc                 (abs)                          000000
+__size_of_initialiseBitBashSpi          (abs)                          000000
+__size_of_initialiseBlueToothIo         (abs)                          000000
+__size_of_initialiseDac                 (abs)                          000000
+__size_of_initialiseIoBitsAndPieces     (abs)                          000000
+__size_of_initialiseLeds                (abs)                          000000
+__size_of_initialiseVoltageReference    (abs)                          000000
+__size_of_interrupt_normal_code         (abs)                          000000
+__size_of_ledColour                     (abs)                          000000
+__size_of_main                          (abs)                          000000
+__size_of_mcuCts                        (abs)                          000000
+__size_of_mcuRtsHigh                    (abs)                          000000
+__size_of_mcuRtsLow                     (abs)                          000000
+__size_of_messageMatch                  (abs)                          000000
+__size_of_my_isr                        (abs)                          000000
+__size_of_readAllADS1120configRegisters (abs)                          000000
+__size_of_readDataSensor                (abs)                          000000
+__size_of_readInCalibrationPoints       (abs)                          000000
+__size_of_readSoftSpiData8              (abs)                          000000
+__size_of_setupADS1120                  (abs)                          000000
+__size_of_shootSoftSpiData8             (abs)                          000000
+__size_of_shootUart1Data                (abs)                          000000
+__size_of_switchToHighFreqOsc           (abs)                          000000
+__size_of_switchToLowFreqOsc            (abs)                          000000
+__size_of_timer0Setup                   (abs)                          000000
+__size_of_uart1Setup                    (abs)                          000000
+__size_of_waitForDrdy                   (abs)                          000000
+__smallconst                            smallconst                     000000
+_ads1120Config0                         bssBANK0                       0000CB
+_ads1120Config1                         bssBANK0                       0000CA
+_ads1120Config2                         bssBANK0                       0000C9
+_ads1120Config3                         bssBANK0                       0000C8
+_analyseBleRxIn                         text19                         005D6C
+_autoCalibrationLsb                     bssBANK0                       0000C3
+_autoCalibrationMsb                     bssBANK0                       0000C4
+_batteryVoltage                         bssBANK0                       0000C2
+_bleBufferDepthCount                    bssBANK0                       0000A6
+_bleJustReset                           dataBANK0                      0000E4
+_bleReady                               bssBANK0                       0000C6
+_bleReadyStore                          bssBANK0                       0000BE
+_bleReset                               text31                         0062B0
+_bleRxBuffer                            bssBANK2                       000200
+_bleRxIntoBuffer                        bssBANK0                       0000AE
+_bleRxOutOfBuffer                       bssBANK0                       0000AC
+_bleTxBuffer                            bssBANK4                       000400
+_bleTxIntoBuffer                        bssBANK0                       0000AA
+_bleTxOutOfBuffer                       bssBANK0                       0000A8
+_blueState                              dataCOMRAM                     00005B
+_blueTimer                              bssCOMRAM                      000057
+_calibrationColours                     dataBANK0                      0000CC
+_calibrationFlagsSet                    bssBANK0                       000088
+_calibrationPointsLSB                   bssBANK0                       000098
+_calibrationPointsMSB                   bssBANK0                       000090
+_calibrationSecurityCheck               mediumconst                    004FFF
+_calibrationStow                        text22                         005DD0
+_codeRevisionNumber                     _codeRevisionNumber_const      00FFFE
+_codeRevisionNumber_absconstaddr        (abs)                          00FFFE
+_constReserveMemory                     _constReserveMemory_const      004000
+_constReserveMemory_absconstaddr        (abs)                          004000
+_dataSet                                dataBANK1                      000100
+_datasIn                                bssBANK0                       000074
+_datasOut                               bssBANK0                       000060
+_delay                                  text30                         00628E
+_flag25mSec                             bssBANK0                       0000BC
+_ifDcPlugInserted                       text18                         005D06
+_initialiseAdc                          text17                         0061A4
+_initialiseBitBashSpi                   text16                         006318
+_initialiseBlueToothIo                  text15                         0062CC
+_initialiseDac                          text14                         006300
+_initialiseIoBitsAndPieces              text13                         00637E
+_initialiseLeds                         text12                         00635C
+_initialiseVoltageReference             text11                         006248
+_interrupt_normal_code                  text37                         005B02
+_ledColour                              text23                         006082
+_ledCount                               bssBANK0                       0000BA
+_ledDisplayCount                        bssBANK0                       0000B9
+_main                                   text0                          005014
+_mcuCts                                 text35                         006330
+_mcuRtsHigh                             text10                         006390
+_mcuRtsLow                              text9                          00638C
+_messageMatch                           text21                         00536A
+_my_isr                                 intcode                        000008
+_normalOrBoot                           (abs)                          000000
+_payload                                bssBANK3                       000300
+_periodFlag                             bssBANK0                       0000C5
+_periodTimer                            bssBANK0                       0000B0
+_readAllADS1120configRegisters          text8                          005F9C
+_readDataSensor                         text26                         006176
+_readInCalibrationPoints                text6                          005E90
+_readSoftSpiData8                       text29                         005F46
+_reservedFileRegisters                  (abs)                          000001
+_reservedFlashDataMemory                _reservedFlashDataMemory_const 004040
+_reservedFlashDataMemory_absconstaddr   (abs)                          004040
+_secTimeCount                           bssBANK0                       0000A4
+_secTimeFlag                            bssBANK0                       0000B8
+_sensorLsb                              bssCOMRAM                      000059
+_sensorMsb                              bssCOMRAM                      00005A
+_setupADS1120                           text5                          005FEC
+_shootSoftSpiData8                      text28                         005E32
+_shootUart1Data                         text34                         006140
+_solidColour                            bssBANK0                       0000C7
+_solidColourTimer                       bssBANK0                       0000B6
+_switchToHighFreqOsc                    text4                          0060C8
+_switchToLowFreqOsc                     text3                          006106
+_systemClockSpeed                       bssBANK0                       0000BB
+_timer0Setup                            text2                          00626C
+_timer25mSec                            bssBANK0                       0000BD
+_uart1Setup                             text1                          0061D0
+_waitForDrdy                            text27                         00636E
+analyseBleRxIn@data                     cstackCOMRAM                   000054
+bleReset@reset                          cstackCOMRAM                   000044
+btemp                                   temp                           00005C
+calibrationStow@id                      cstackCOMRAM                   000049
+end_of_initialization                   cinit                          005CFC
+ifDcPlugInserted@n                      cstackCOMRAM                   000044
+int$flags                               temp                           00005C
+intlevel0                               text                           000000
+intlevel1                               text                           000000
+intlevel2                               text                           000000
+intlevel3                               text                           000000
+ledColour@colour                        cstackCOMRAM                   000044
+main@d                                  cstackBANK0                    0000EF
+main@n                                  cstackBANK0                    0000EE
+main@x                                  cstackBANK0                    0000EC
+messageMatch@cls                        cstackCOMRAM                   00004A
+messageMatch@command                    cstackCOMRAM                   00004B
+messageMatch@hilen                      cstackCOMRAM                   00004E
+messageMatch@n                          cstackCOMRAM                   00004F
+messageMatch@result                     cstackCOMRAM                   000050
+readAllADS1120configRegisters@d         cstackCOMRAM                   000047
+readDataSensor@data                     cstackCOMRAM                   000047
+readInCalibrationPoints@n               cstackCOMRAM                   000048
+readSoftSpiData8@build                  cstackCOMRAM                   000045
+readSoftSpiData8@n                      cstackCOMRAM                   000044
+readSoftSpiData8@shift                  cstackCOMRAM                   000046
+setupADS1120@d                          cstackCOMRAM                   000047
+shootSoftSpiData8@data                  cstackCOMRAM                   000044
+shootSoftSpiData8@n                     cstackCOMRAM                   000045
+shootSoftSpiData8@shift                 cstackCOMRAM                   000046
+shootUart1Data@data                     cstackCOMRAM                   000044
+stackhi                                 (abs)                          000E87
+stacklo                                 (abs)                          000500
+start                                   init                           000022
+start_initialization                    cinit                          005C56
+ttemp5                                  temp                           00005D
+ttemp6                                  temp                           000060
+ttemp7                                  temp                           000064
+wtemp8                                  temp                           00005D
+
+
+FUNCTION INFORMATION:
+
+ *************** function _main *****************
+ Defined at:
+		line 177 in file "src/main.c"
+ Parameters:    Size  Location     Type
+  argc            2    0[BANK0 ] int 
+  argv            3    2[BANK0 ] PTR PTR unsigned char 
+ Auto vars:     Size  Location     Type
+  d               2   10[BANK0 ] unsigned short 
+  x               2    7[BANK0 ] unsigned short 
+  n               1    9[BANK0 ] unsigned char 
+  data            1    0        unsigned char 
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg, fsr1l, fsr1h, fsr2l, fsr2h, status,2, status,0, tblptrl, tblptrh, tblptru, cstack
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMRAM   BANK0   BANK1   BANK2   BANK3   BANK4   BANK5   BANK6   BANK7   BANK8   BANK9  BANK10  BANK11  BANK12  BANK13  BANK14
+      Params:         0       5       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Locals:         0       5       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Temps:          0       2       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Totals:         0      12       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+Total ram usage:       12 bytes
+ Hardware stack levels required when called:    7
+ This function calls:
+		_XBLE_state_manage
+		_analyseBleRxIn
+		_ifDcPlugInserted
+		_initialiseAdc
+		_initialiseBitBashSpi
+		_initialiseBlueToothIo
+		_initialiseDac
+		_initialiseIoBitsAndPieces
+		_initialiseLeds
+		_initialiseVoltageReference
+		_ledColour
+		_mcuRtsHigh
+		_mcuRtsLow
+		_readAllADS1120configRegisters
+		_readDataSensor
+		_readInCalibrationPoints
+		_setupADS1120
+		_switchToHighFreqOsc
+		_switchToLowFreqOsc
+		_timer0Setup
+		_uart1Setup
+ This function is called by:
+		Startup code after reset
+ This function uses a non-reentrant model
+
+
+ *************** function _uart1Setup *****************
+ Defined at:
+		line 478 in file "src/main.c"
+ Parameters:    Size  Location     Type
+		None
+ Auto vars:     Size  Location     Type
+  dummyRead       1    0        unsigned char 
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg, status,2
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMRAM   BANK0   BANK1   BANK2   BANK3   BANK4   BANK5   BANK6   BANK7   BANK8   BANK9  BANK10  BANK11  BANK12  BANK13  BANK14
+      Params:         0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Locals:         1       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Temps:          0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Totals:         1       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+Total ram usage:        1 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    2
+ This function calls:
+		Nothing
+ This function is called by:
+		_main
+ This function uses a non-reentrant model
+
+
+ *************** function _timer0Setup *****************
+ Defined at:
+		line 452 in file "src/main.c"
+ Parameters:    Size  Location     Type
+		None
+ Auto vars:     Size  Location     Type
+		None
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg, status,2
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMRAM   BANK0   BANK1   BANK2   BANK3   BANK4   BANK5   BANK6   BANK7   BANK8   BANK9  BANK10  BANK11  BANK12  BANK13  BANK14
+      Params:         0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Locals:         0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Temps:          0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Totals:         0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+Total ram usage:        0 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    2
+ This function calls:
+		Nothing
+ This function is called by:
+		_main
+ This function uses a non-reentrant model
+
+
+ *************** function _switchToLowFreqOsc *****************
+ Defined at:
+		line 698 in file "src/main.c"
+ Parameters:    Size  Location     Type
+		None
+ Auto vars:     Size  Location     Type
+		None
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg, status,2
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMRAM   BANK0   BANK1   BANK2   BANK3   BANK4   BANK5   BANK6   BANK7   BANK8   BANK9  BANK10  BANK11  BANK12  BANK13  BANK14
+      Params:         0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Locals:         0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Temps:          0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Totals:         0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+Total ram usage:        0 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    2
+ This function calls:
+		Nothing
+ This function is called by:
+		_main
+ This function uses a non-reentrant model
+
+
+ *************** function _switchToHighFreqOsc *****************
+ Defined at:
+		line 671 in file "src/main.c"
+ Parameters:    Size  Location     Type
+		None
+ Auto vars:     Size  Location     Type
+		None
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg, status,2
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMRAM   BANK0   BANK1   BANK2   BANK3   BANK4   BANK5   BANK6   BANK7   BANK8   BANK9  BANK10  BANK11  BANK12  BANK13  BANK14
+      Params:         0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Locals:         0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Temps:          0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Totals:         0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+Total ram usage:        0 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    2
+ This function calls:
+		Nothing
+ This function is called by:
+		_main
+ This function uses a non-reentrant model
+
+
+ *************** function _setupADS1120 *****************
+ Defined at:
+		line 151 in file "src/blueWork.c"
+ Parameters:    Size  Location     Type
+		None
+ Auto vars:     Size  Location     Type
+  d               2    6[COMRAM] unsigned int 
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg, status,2, status,0, cstack
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMRAM   BANK0   BANK1   BANK2   BANK3   BANK4   BANK5   BANK6   BANK7   BANK8   BANK9  BANK10  BANK11  BANK12  BANK13  BANK14
+      Params:         0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Locals:         2       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Temps:          0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Totals:         2       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+Total ram usage:        2 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    4
+ This function calls:
+		_shootSoftSpiData8
+ This function is called by:
+		_main
+ This function uses a non-reentrant model
+
+
+ *************** function _readInCalibrationPoints *****************
+ Defined at:
+		line 262 in file "src/blueWork.c"
+ Parameters:    Size  Location     Type
+		None
+ Auto vars:     Size  Location     Type
+  n               2    7[COMRAM] unsigned int 
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg, fsr2l, fsr2h, status,2, status,0, cstack
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMRAM   BANK0   BANK1   BANK2   BANK3   BANK4   BANK5   BANK6   BANK7   BANK8   BANK9  BANK10  BANK11  BANK12  BANK13  BANK14
+      Params:         0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Locals:         2       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Temps:          0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Totals:         2       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+Total ram usage:        2 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    3
+ This function calls:
+		_ReadEEByte
+ This function is called by:
+		_main
+ This function uses a non-reentrant model
+
+
+ *************** function _ReadEEByte *****************
+ Defined at:
+		line 218 in file "src/blueWork.c"
+ Parameters:    Size  Location     Type
+  address         2    3[COMRAM] unsigned short 
+ Auto vars:     Size  Location     Type
+		None
+ Return value:  Size  Location     Type
+                  1    wreg      unsigned char 
+ Registers used:
+		wreg, status,2, status,0
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMRAM   BANK0   BANK1   BANK2   BANK3   BANK4   BANK5   BANK6   BANK7   BANK8   BANK9  BANK10  BANK11  BANK12  BANK13  BANK14
+      Params:         2       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Locals:         0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Temps:          2       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Totals:         4       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+Total ram usage:        4 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    2
+ This function calls:
+		Nothing
+ This function is called by:
+		_readInCalibrationPoints
+ This function uses a non-reentrant model
+
+
+ *************** function _readAllADS1120configRegisters *****************
+ Defined at:
+		line 175 in file "src/blueWork.c"
+ Parameters:    Size  Location     Type
+		None
+ Auto vars:     Size  Location     Type
+  d               2    6[COMRAM] unsigned int 
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg, status,2, status,0, cstack
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMRAM   BANK0   BANK1   BANK2   BANK3   BANK4   BANK5   BANK6   BANK7   BANK8   BANK9  BANK10  BANK11  BANK12  BANK13  BANK14
+      Params:         0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Locals:         2       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Temps:          0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Totals:         2       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+Total ram usage:        2 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    4
+ This function calls:
+		_readSoftSpiData8
+		_shootSoftSpiData8
+ This function is called by:
+		_main
+ This function uses a non-reentrant model
+
+
+ *************** function _mcuRtsLow *****************
+ Defined at:
+		line 286 in file "src/blueWork.c"
+ Parameters:    Size  Location     Type
+		None
+ Auto vars:     Size  Location     Type
+		None
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		None
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMRAM   BANK0   BANK1   BANK2   BANK3   BANK4   BANK5   BANK6   BANK7   BANK8   BANK9  BANK10  BANK11  BANK12  BANK13  BANK14
+      Params:         0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Locals:         0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Temps:          0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Totals:         0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+Total ram usage:        0 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    2
+ This function calls:
+		Nothing
+ This function is called by:
+		_main
+ This function uses a non-reentrant model
+
+
+ *************** function _mcuRtsHigh *****************
+ Defined at:
+		line 281 in file "src/blueWork.c"
+ Parameters:    Size  Location     Type
+		None
+ Auto vars:     Size  Location     Type
+		None
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		None
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMRAM   BANK0   BANK1   BANK2   BANK3   BANK4   BANK5   BANK6   BANK7   BANK8   BANK9  BANK10  BANK11  BANK12  BANK13  BANK14
+      Params:         0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Locals:         0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Temps:          0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Totals:         0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+Total ram usage:        0 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    2
+ This function calls:
+		Nothing
+ This function is called by:
+		_main
+ This function uses a non-reentrant model
+
+
+ *************** function _initialiseVoltageReference *****************
+ Defined at:
+		line 811 in file "src/main.c"
+ Parameters:    Size  Location     Type
+		None
+ Auto vars:     Size  Location     Type
+		None
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg, status,2
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMRAM   BANK0   BANK1   BANK2   BANK3   BANK4   BANK5   BANK6   BANK7   BANK8   BANK9  BANK10  BANK11  BANK12  BANK13  BANK14
+      Params:         0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Locals:         0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Temps:          0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Totals:         0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+Total ram usage:        0 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    2
+ This function calls:
+		Nothing
+ This function is called by:
+		_main
+ This function uses a non-reentrant model
+
+
+ *************** function _initialiseLeds *****************
+ Defined at:
+		line 723 in file "src/main.c"
+ Parameters:    Size  Location     Type
+		None
+ Auto vars:     Size  Location     Type
+		None
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg, cstack
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMRAM   BANK0   BANK1   BANK2   BANK3   BANK4   BANK5   BANK6   BANK7   BANK8   BANK9  BANK10  BANK11  BANK12  BANK13  BANK14
+      Params:         0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Locals:         0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Temps:          0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Totals:         0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+Total ram usage:        0 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    3
+ This function calls:
+		_ledColour
+ This function is called by:
+		_main
+ This function uses a non-reentrant model
+
+
+ *************** function _initialiseIoBitsAndPieces *****************
+ Defined at:
+		line 857 in file "src/main.c"
+ Parameters:    Size  Location     Type
+		None
+ Auto vars:     Size  Location     Type
+		None
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg, status,2
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMRAM   BANK0   BANK1   BANK2   BANK3   BANK4   BANK5   BANK6   BANK7   BANK8   BANK9  BANK10  BANK11  BANK12  BANK13  BANK14
+      Params:         0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Locals:         0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Temps:          0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Totals:         0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+Total ram usage:        0 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    2
+ This function calls:
+		Nothing
+ This function is called by:
+		_main
+ This function uses a non-reentrant model
+
+
+ *************** function _initialiseDac *****************
+ Defined at:
+		line 781 in file "src/main.c"
+ Parameters:    Size  Location     Type
+		None
+ Auto vars:     Size  Location     Type
+		None
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg, status,2
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMRAM   BANK0   BANK1   BANK2   BANK3   BANK4   BANK5   BANK6   BANK7   BANK8   BANK9  BANK10  BANK11  BANK12  BANK13  BANK14
+      Params:         0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Locals:         0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Temps:          0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Totals:         0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+Total ram usage:        0 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    2
+ This function calls:
+		Nothing
+ This function is called by:
+		_main
+ This function uses a non-reentrant model
+
+
+ *************** function _initialiseBlueToothIo *****************
+ Defined at:
+		line 897 in file "src/main.c"
+ Parameters:    Size  Location     Type
+		None
+ Auto vars:     Size  Location     Type
+		None
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg, status,2
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMRAM   BANK0   BANK1   BANK2   BANK3   BANK4   BANK5   BANK6   BANK7   BANK8   BANK9  BANK10  BANK11  BANK12  BANK13  BANK14
+      Params:         0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Locals:         0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Temps:          0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Totals:         0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+Total ram usage:        0 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    2
+ This function calls:
+		Nothing
+ This function is called by:
+		_main
+ This function uses a non-reentrant model
+
+
+ *************** function _initialiseBitBashSpi *****************
+ Defined at:
+		line 871 in file "src/main.c"
+ Parameters:    Size  Location     Type
+		None
+ Auto vars:     Size  Location     Type
+		None
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg, status,2
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMRAM   BANK0   BANK1   BANK2   BANK3   BANK4   BANK5   BANK6   BANK7   BANK8   BANK9  BANK10  BANK11  BANK12  BANK13  BANK14
+      Params:         0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Locals:         0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Temps:          0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Totals:         0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+Total ram usage:        0 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    2
+ This function calls:
+		Nothing
+ This function is called by:
+		_main
+ This function uses a non-reentrant model
+
+
+ *************** function _initialiseAdc *****************
+ Defined at:
+		line 737 in file "src/main.c"
+ Parameters:    Size  Location     Type
+		None
+ Auto vars:     Size  Location     Type
+		None
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg, status,2
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMRAM   BANK0   BANK1   BANK2   BANK3   BANK4   BANK5   BANK6   BANK7   BANK8   BANK9  BANK10  BANK11  BANK12  BANK13  BANK14
+      Params:         0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Locals:         0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Temps:          0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Totals:         0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+Total ram usage:        0 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    2
+ This function calls:
+		Nothing
+ This function is called by:
+		_main
+ This function uses a non-reentrant model
+
+
+ *************** function _ifDcPlugInserted *****************
+ Defined at:
+		line 916 in file "src/main.c"
+ Parameters:    Size  Location     Type
+		None
+ Auto vars:     Size  Location     Type
+  n               1    3[COMRAM] unsigned char 
+ Return value:  Size  Location     Type
+                  1    wreg      unsigned char 
+ Registers used:
+		wreg, status,2, status,0
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMRAM   BANK0   BANK1   BANK2   BANK3   BANK4   BANK5   BANK6   BANK7   BANK8   BANK9  BANK10  BANK11  BANK12  BANK13  BANK14
+      Params:         0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Locals:         1       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Temps:          0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Totals:         1       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+Total ram usage:        1 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    2
+ This function calls:
+		Nothing
+ This function is called by:
+		_main
+ This function uses a non-reentrant model
+
+
+ *************** function _analyseBleRxIn *****************
+ Defined at:
+		line 948 in file "src/main.c"
+ Parameters:    Size  Location     Type
+		None
+ Auto vars:     Size  Location     Type
+  data            1   19[COMRAM] unsigned char 
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg, fsr1l, fsr1h, fsr2l, fsr2h, status,2, status,0, tblptrl, tblptrh, tblptru, cstack
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMRAM   BANK0   BANK1   BANK2   BANK3   BANK4   BANK5   BANK6   BANK7   BANK8   BANK9  BANK10  BANK11  BANK12  BANK13  BANK14
+      Params:         0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Locals:         1       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Temps:          0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Totals:         1       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+Total ram usage:        1 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    6
+ This function calls:
+		_XReceiveBTMessage
+ This function is called by:
+		_main
+ This function uses a non-reentrant model
+
+
+ *************** function _XReceiveBTMessage *****************
+ Defined at:
+		line 481 in file "src/blueWork.c"
+ Parameters:    Size  Location     Type
+  BTdata          1    wreg     unsigned char 
+ Auto vars:     Size  Location     Type
+  BTdata          1   18[COMRAM] unsigned char 
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg, fsr1l, fsr1h, fsr2l, fsr2h, status,2, status,0, tblptrl, tblptrh, tblptru, cstack
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMRAM   BANK0   BANK1   BANK2   BANK3   BANK4   BANK5   BANK6   BANK7   BANK8   BANK9  BANK10  BANK11  BANK12  BANK13  BANK14
+      Params:         0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Locals:         1       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Temps:          2       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Totals:         3       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+Total ram usage:        3 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    5
+ This function calls:
+		_messageMatch
+ This function is called by:
+		_analyseBleRxIn
+ This function uses a non-reentrant model
+
+
+ *************** function _messageMatch *****************
+ Defined at:
+		line 327 in file "src/blueWork.c"
+ Parameters:    Size  Location     Type
+  hilen           1    wreg     unsigned char 
+  cls             1    9[COMRAM] unsigned char 
+  command         1   10[COMRAM] unsigned char 
+ Auto vars:     Size  Location     Type
+  hilen           1   13[COMRAM] unsigned char 
+  result          1   15[COMRAM] unsigned char 
+  n               1   14[COMRAM] unsigned char 
+ Return value:  Size  Location     Type
+                  1    wreg      unsigned char 
+ Registers used:
+		wreg, fsr1l, fsr1h, fsr2l, fsr2h, status,2, status,0, tblptrl, tblptrh, tblptru, cstack
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMRAM   BANK0   BANK1   BANK2   BANK3   BANK4   BANK5   BANK6   BANK7   BANK8   BANK9  BANK10  BANK11  BANK12  BANK13  BANK14
+      Params:         2       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Locals:         3       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Temps:          2       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Totals:         7       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+Total ram usage:        7 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    4
+ This function calls:
+		_calibrationStow
+ This function is called by:
+		_XReceiveBTMessage
+ This function uses a non-reentrant model
+
+
+ *************** function _calibrationStow *****************
+ Defined at:
+		line 315 in file "src/blueWork.c"
+ Parameters:    Size  Location     Type
+  id              1    wreg     unsigned char 
+ Auto vars:     Size  Location     Type
+  id              1    8[COMRAM] unsigned char 
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg, fsr2l, fsr2h, status,2, status,0, cstack
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMRAM   BANK0   BANK1   BANK2   BANK3   BANK4   BANK5   BANK6   BANK7   BANK8   BANK9  BANK10  BANK11  BANK12  BANK13  BANK14
+      Params:         0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Locals:         1       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Temps:          0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Totals:         1       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+Total ram usage:        1 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    3
+ This function calls:
+		_WriteEEByte
+		_ledColour
+ This function is called by:
+		_messageMatch
+ This function uses a non-reentrant model
+
+
+ *************** function _ledColour *****************
+ Defined at:
+		line 198 in file "src/blueWork.c"
+ Parameters:    Size  Location     Type
+  colour          1    wreg     unsigned char 
+ Auto vars:     Size  Location     Type
+  colour          1    3[COMRAM] unsigned char 
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMRAM   BANK0   BANK1   BANK2   BANK3   BANK4   BANK5   BANK6   BANK7   BANK8   BANK9  BANK10  BANK11  BANK12  BANK13  BANK14
+      Params:         0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Locals:         1       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Temps:          0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Totals:         1       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+Total ram usage:        1 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    2
+ This function calls:
+		Nothing
+ This function is called by:
+		_calibrationStow
+		_main
+		_initialiseLeds
+ This function uses a non-reentrant model
+
+
+ *************** function _WriteEEByte *****************
+ Defined at:
+		line 233 in file "src/blueWork.c"
+ Parameters:    Size  Location     Type
+  address         2    3[COMRAM] unsigned short 
+  data            1    5[COMRAM] unsigned char 
+ Auto vars:     Size  Location     Type
+		None
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg, status,2, status,0
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMRAM   BANK0   BANK1   BANK2   BANK3   BANK4   BANK5   BANK6   BANK7   BANK8   BANK9  BANK10  BANK11  BANK12  BANK13  BANK14
+      Params:         3       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Locals:         0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Temps:          2       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Totals:         5       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+Total ram usage:        5 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    2
+ This function calls:
+		Nothing
+ This function is called by:
+		_calibrationStow
+ This function uses a non-reentrant model
+
+
+ *************** function _XBLE_state_manage *****************
+ Defined at:
+		line 598 in file "src/blueWork.c"
+ Parameters:    Size  Location     Type
+		None
+ Auto vars:     Size  Location     Type
+  n               1    0        unsigned char 
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg, fsr2l, fsr2h, status,2, status,0, cstack
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMRAM   BANK0   BANK1   BANK2   BANK3   BANK4   BANK5   BANK6   BANK7   BANK8   BANK9  BANK10  BANK11  BANK12  BANK13  BANK14
+      Params:         0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Locals:         0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Temps:          2       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Totals:         2       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+Total ram usage:        2 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    5
+ This function calls:
+		_Xble_cmd_attributes_write
+		_Xble_cmd_gap_set_mode
+		_bleReset
+		_readDataSensor
+ This function is called by:
+		_main
+ This function uses a non-reentrant model
+
+
+ *************** function _readDataSensor *****************
+ Defined at:
+		line 133 in file "src/blueWork.c"
+ Parameters:    Size  Location     Type
+  data            1    wreg     unsigned char 
+ Auto vars:     Size  Location     Type
+  data            1    6[COMRAM] unsigned char 
+  lsb             1    0        unsigned char 
+  msb             1    0        unsigned char 
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg, status,2, status,0, cstack
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMRAM   BANK0   BANK1   BANK2   BANK3   BANK4   BANK5   BANK6   BANK7   BANK8   BANK9  BANK10  BANK11  BANK12  BANK13  BANK14
+      Params:         0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Locals:         1       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Temps:          0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Totals:         1       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+Total ram usage:        1 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    4
+ This function calls:
+		_delay
+		_readSoftSpiData8
+		_shootSoftSpiData8
+		_waitForDrdy
+ This function is called by:
+		_XBLE_state_manage
+		_main
+ This function uses a non-reentrant model
+
+
+ *************** function _waitForDrdy *****************
+ Defined at:
+		line 101 in file "src/blueWork.c"
+ Parameters:    Size  Location     Type
+		None
+ Auto vars:     Size  Location     Type
+		None
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		None
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMRAM   BANK0   BANK1   BANK2   BANK3   BANK4   BANK5   BANK6   BANK7   BANK8   BANK9  BANK10  BANK11  BANK12  BANK13  BANK14
+      Params:         0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Locals:         0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Temps:          0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Totals:         0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+Total ram usage:        0 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    2
+ This function calls:
+		Nothing
+ This function is called by:
+		_readDataSensor
+ This function uses a non-reentrant model
+
+
+ *************** function _shootSoftSpiData8 *****************
+ Defined at:
+		line 76 in file "src/blueWork.c"
+ Parameters:    Size  Location     Type
+  data            1    wreg     unsigned char 
+ Auto vars:     Size  Location     Type
+  data            1    3[COMRAM] unsigned char 
+  shift           1    5[COMRAM] unsigned char 
+  n               1    4[COMRAM] unsigned char 
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg, status,2, status,0, cstack
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMRAM   BANK0   BANK1   BANK2   BANK3   BANK4   BANK5   BANK6   BANK7   BANK8   BANK9  BANK10  BANK11  BANK12  BANK13  BANK14
+      Params:         0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Locals:         3       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Temps:          0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Totals:         3       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+Total ram usage:        3 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    3
+ This function calls:
+		_delay
+ This function is called by:
+		_readDataSensor
+		_setupADS1120
+		_readAllADS1120configRegisters
+ This function uses a non-reentrant model
+
+
+ *************** function _readSoftSpiData8 *****************
+ Defined at:
+		line 108 in file "src/blueWork.c"
+ Parameters:    Size  Location     Type
+		None
+ Auto vars:     Size  Location     Type
+  shift           1    5[COMRAM] unsigned char 
+  build           1    4[COMRAM] unsigned char 
+  n               1    3[COMRAM] unsigned char 
+ Return value:  Size  Location     Type
+                  1    wreg      unsigned char 
+ Registers used:
+		wreg, status,2, status,0, cstack
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMRAM   BANK0   BANK1   BANK2   BANK3   BANK4   BANK5   BANK6   BANK7   BANK8   BANK9  BANK10  BANK11  BANK12  BANK13  BANK14
+      Params:         0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Locals:         3       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Temps:          0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Totals:         3       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+Total ram usage:        3 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    3
+ This function calls:
+		_delay
+ This function is called by:
+		_readDataSensor
+		_readAllADS1120configRegisters
+ This function uses a non-reentrant model
+
+
+ *************** function _delay *****************
+ Defined at:
+		line 56 in file "src/blueWork.c"
+ Parameters:    Size  Location     Type
+		None
+ Auto vars:     Size  Location     Type
+		None
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		None
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMRAM   BANK0   BANK1   BANK2   BANK3   BANK4   BANK5   BANK6   BANK7   BANK8   BANK9  BANK10  BANK11  BANK12  BANK13  BANK14
+      Params:         0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Locals:         0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Temps:          0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Totals:         0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+Total ram usage:        0 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    2
+ This function calls:
+		Nothing
+ This function is called by:
+		_shootSoftSpiData8
+		_readSoftSpiData8
+		_readDataSensor
+ This function uses a non-reentrant model
+
+
+ *************** function _bleReset *****************
+ Defined at:
+		line 273 in file "src/blueWork.c"
+ Parameters:    Size  Location     Type
+  reset           1    wreg     unsigned char 
+ Auto vars:     Size  Location     Type
+  reset           1    3[COMRAM] unsigned char 
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg, status,2, status,0
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMRAM   BANK0   BANK1   BANK2   BANK3   BANK4   BANK5   BANK6   BANK7   BANK8   BANK9  BANK10  BANK11  BANK12  BANK13  BANK14
+      Params:         0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Locals:         1       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Temps:          0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Totals:         1       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+Total ram usage:        1 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    2
+ This function calls:
+		Nothing
+ This function is called by:
+		_XBLE_state_manage
+ This function uses a non-reentrant model
+
+
+ *************** function _Xble_cmd_gap_set_mode *****************
+ Defined at:
+		line 588 in file "src/blueWork.c"
+ Parameters:    Size  Location     Type
+		None
+ Auto vars:     Size  Location     Type
+		None
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg, status,2, cstack
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMRAM   BANK0   BANK1   BANK2   BANK3   BANK4   BANK5   BANK6   BANK7   BANK8   BANK9  BANK10  BANK11  BANK12  BANK13  BANK14
+      Params:         0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Locals:         0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Temps:          0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Totals:         0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+Total ram usage:        0 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    4
+ This function calls:
+		_shootUart1Data
+ This function is called by:
+		_XBLE_state_manage
+ This function uses a non-reentrant model
+
+
+ *************** function _Xble_cmd_attributes_write *****************
+ Defined at:
+		line 570 in file "src/blueWork.c"
+ Parameters:    Size  Location     Type
+		None
+ Auto vars:     Size  Location     Type
+  n               1    4[COMRAM] unsigned char 
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg, fsr2l, fsr2h, status,2, status,0, cstack
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMRAM   BANK0   BANK1   BANK2   BANK3   BANK4   BANK5   BANK6   BANK7   BANK8   BANK9  BANK10  BANK11  BANK12  BANK13  BANK14
+      Params:         0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Locals:         1       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Temps:          0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Totals:         1       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+Total ram usage:        1 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    4
+ This function calls:
+		_shootUart1Data
+ This function is called by:
+		_XBLE_state_manage
+ This function uses a non-reentrant model
+
+
+ *************** function _shootUart1Data *****************
+ Defined at:
+		line 299 in file "src/blueWork.c"
+ Parameters:    Size  Location     Type
+  data            1    wreg     unsigned char 
+ Auto vars:     Size  Location     Type
+  data            1    3[COMRAM] unsigned char 
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg, status,2, cstack
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMRAM   BANK0   BANK1   BANK2   BANK3   BANK4   BANK5   BANK6   BANK7   BANK8   BANK9  BANK10  BANK11  BANK12  BANK13  BANK14
+      Params:         0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Locals:         1       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Temps:          0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Totals:         1       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+Total ram usage:        1 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    3
+ This function calls:
+		_mcuCts
+ This function is called by:
+		_Xble_cmd_attributes_write
+		_Xble_cmd_gap_set_mode
+ This function uses a non-reentrant model
+
+
+ *************** function _mcuCts *****************
+ Defined at:
+		line 291 in file "src/blueWork.c"
+ Parameters:    Size  Location     Type
+		None
+ Auto vars:     Size  Location     Type
+		None
+ Return value:  Size  Location     Type
+                  1    wreg      unsigned char 
+ Registers used:
+		wreg
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMRAM   BANK0   BANK1   BANK2   BANK3   BANK4   BANK5   BANK6   BANK7   BANK8   BANK9  BANK10  BANK11  BANK12  BANK13  BANK14
+      Params:         0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Locals:         0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Temps:          0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Totals:         0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+Total ram usage:        0 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    2
+ This function calls:
+		Nothing
+ This function is called by:
+		_shootUart1Data
+ This function uses a non-reentrant model
+
+
+ *************** function _my_isr *****************
+ Defined at:
+		line 1051 in file "src/main.c"
+ Parameters:    Size  Location     Type
+		None
+ Auto vars:     Size  Location     Type
+		None
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg, fsr2l, fsr2h, status,2, status,0, cstack
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMRAM   BANK0   BANK1   BANK2   BANK3   BANK4   BANK5   BANK6   BANK7   BANK8   BANK9  BANK10  BANK11  BANK12  BANK13  BANK14
+      Params:         0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Locals:         0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Temps:          2       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Totals:         2       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+Total ram usage:        2 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    1
+ This function calls:
+		_interrupt_normal_code
+ This function is called by:
+		Interrupt level 2
+ This function uses a non-reentrant model
+
+
+ *************** function _interrupt_normal_code *****************
+ Defined at:
+		line 970 in file "src/main.c"
+ Parameters:    Size  Location     Type
+		None
+ Auto vars:     Size  Location     Type
+  data            1    0        unsigned char 
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg, fsr2l, fsr2h, status,2, status,0
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMRAM   BANK0   BANK1   BANK2   BANK3   BANK4   BANK5   BANK6   BANK7   BANK8   BANK9  BANK10  BANK11  BANK12  BANK13  BANK14
+      Params:         0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Locals:         1       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Temps:          0       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+      Totals:         1       0       0       0       0       0       0       0       0       0       0       0       0       0       0       0
+Total ram usage:        1 bytes
+ Hardware stack levels used:    1
+ This function calls:
+		Nothing
+ This function is called by:
+		_my_isr
+ This function uses a non-reentrant model
+
+
+
+MODULE INFORMATION
+
+Module		Function		Class		Link	Load	Size
+src/main.c
+		_analyseBleRxIn		CODE           	5D6C	0000	101
+		_initialiseLeds		CODE           	635C	0000	19
+		_initialiseIoBitsAndPieces		CODE           	637E	0000	15
+		_timer0Setup   		CODE           	626C	0000	35
+		_main          		CODE           	5014	0000	855
+		_switchToLowFreqOsc		CODE           	6106	0000	59
+		_ifDcPlugInserted		CODE           	5D06	0000	103
+		_initialiseBlueToothIo		CODE           	62CC	0000	27
+		_interrupt_normal_code		CODE           	5B02	0000	341
+		_initialiseBitBashSpi		CODE           	6318	0000	25
+		_switchToHighFreqOsc		CODE           	60C8	0000	63
+		_uart1Setup    		CODE           	61D0	0000	43
+		_initialiseDac 		CODE           	6300	0000	25
+		_initialiseAdc 		CODE           	61A4	0000	45
+		_initialiseVoltageReference		CODE           	6248	0000	37
+		_my_isr        		CODE           	0008	0000	27
+
+src/main.c estimated size: 1820
+
+shared
+		_codeRevisionNumber		CODE           	FFFE	0000	3
+		_calibrationSecurityCheck		MEDIUMCONST    	4FFF	0000	21
+		__initialization		CODE           	5C56	0000	167
+		_constReserveMemory		CODE           	4000	0000	65
+		_reservedFlashDataMemory		CODE           	4040	0000	4031
+
+shared estimated size: 4287
+
+src/blueWork.c
+		_shootUart1Data		CODE           	6140	0000	55
+		_ledColour     		CODE           	6082	0000	71
+		_delay         		CODE           	628E	0000	35
+		_Xble_cmd_gap_set_mode		CODE           	6222	0000	39
+		_mcuRtsLow     		CODE           	638C	0000	5
+		_bleReset      		CODE           	62B0	0000	29
+		_calibrationStow		CODE           	5DD0	0000	99
+		_readDataSensor		CODE           	6176	0000	47
+		_shootSoftSpiData8		CODE           	5E32	0000	95
+		_readAllADS1120configRegisters		CODE           	5F9C	0000	81
+		_Xble_cmd_attributes_write		CODE           	5EEC	0000	91
+		_XReceiveBTMessage		CODE           	59A6	0000	349
+		_mcuRtsHigh    		CODE           	6390	0000	5
+		_XBLE_state_manage		CODE           	56A6	0000	769
+		_readInCalibrationPoints		CODE           	5E90	0000	93
+		_WriteEEByte   		CODE           	603A	0000	73
+		_waitForDrdy   		CODE           	636E	0000	17
+		_mcuCts        		CODE           	6330	0000	25
+		_readSoftSpiData8		CODE           	5F46	0000	87
+		_messageMatch  		CODE           	536A	0000	829
+		_ReadEEByte    		CODE           	61FA	0000	41
+		_setupADS1120  		CODE           	5FEC	0000	79
+
+src/blueWork.c estimated size: 3014
+
