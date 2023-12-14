@@ -1,0 +1,1 @@
+ -c -mcpu=$(MP_PROCESSOR_OPTION)  -omf=elf -DXPRJ_default=$(CND_CONF)    -Wa,-g,--no-relax$(MP_EXTRA_AS_POST) C:\Users\JoshKruik\OneDrive - SafeGauge\Desktop\Safe Gauge Work\USB Dongle 1.X\src\memory.s

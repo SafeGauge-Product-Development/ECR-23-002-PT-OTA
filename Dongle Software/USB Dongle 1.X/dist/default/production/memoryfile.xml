@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project>
+  <executable name="dist/default/production/USB_Dongle_1.X.production.elf">
+    <memory name="data">
+      <units>bytes</units>
+      <length>16384</length>
+      <used>14052</used>
+      <free>2332</free>
+    </memory>
+    <memory name="program">
+      <units>bytes</units>
+      <length>263424</length>
+      <used>16398</used>
+      <free>247026</free>
+    </memory>
+  </executable>
+</project>
